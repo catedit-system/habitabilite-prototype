@@ -1,3 +1,4 @@
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -5,5 +6,8 @@
 
 <http://ld.iri-research.org/ontology/categorisation/category#875f6bd7_composition-athmospherique> rdfs:label "composition athmosphérique" ;
     rdf:Description "L’atmosphère terrestre est l'enveloppe gazeuse entourant la Terre solide. L'air sec se compose de 78,087 % de diazote, 20,95 % de dioxygène, 0,93 % d'argon, 0,0395 % de dioxyde de carbone et des traces d'autres gaz. L'atmosphère protège la vie sur Terre en absorbant le rayonnement solaire ultraviolet, en réchauffant la surface par la rétention de chaleur (effet de serre) et en réduisant les écarts de température entre le jour et la nuit." ;
-    rdf:ID "875f6bd7_composition-athmospherique" .
+    rdf:ID "875f6bd7_composition-athmospherique" ;
+    ns1:related <http://ld.iri-research.org/ontology/categorisation/category#8dd42238_vie>,
+        <http://ld.iri-research.org/ontology/categorisation/category#9fe0a50e_radiation-haute-energie>,
+        <http://ld.iri-research.org/ontology/categorisation/category#ab768f2e_evaporation> .
 

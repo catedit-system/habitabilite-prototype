@@ -1,3 +1,4 @@
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -6,5 +7,8 @@
 <http://ld.iri-research.org/ontology/categorisation/category#8dd42238_vie> rdfs:label "vie" ;
     rdf:Description """La vie (parfois écrit avec une majuscule, Vie) est un phénomène naturel observé à ce jour uniquement sur Terre. La vie se manifeste à travers des structures matérielles appelées organismes vivants, ou êtres vivants, reconnaissables par la grande complexité de leur structure interne, par le fait qu'ils s'écartent durablement de l'équilibre thermodynamique selon un processus appelé homéostasie, et surtout par le fait qu'ils sont capables de reproduction. L'ensemble des organismes vivants forme ce qu'on appelle la biosphère. La présence de la Vie sur Terre influence énormément la composition et la structure de la surface terrestre et de l'atmosphère. Par exemple, l'abondance d'oxygène dans l'atmosphère est directement liée à la présence de vie. L'étude du phénomène vivant recoupe donc certains domaines d'études de la Terre elle-même, c'est-à-dire de la géologie.\r
 """ ;
-    rdf:ID "8dd42238_vie" .
+    rdf:ID "8dd42238_vie" ;
+    ns1:related <http://ld.iri-research.org/ontology/categorisation/category#a431f754_mutation-adn>,
+        <http://ld.iri-research.org/ontology/categorisation/category#b909d599_activite-tellurique>,
+        <http://ld.iri-research.org/ontology/categorisation/category#cb27c8c6_bouclier-magnetique> .
 
