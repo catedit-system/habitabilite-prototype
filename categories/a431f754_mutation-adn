@@ -1,0 +1,9 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ld.iri-research.org/ontology/categorisation/category#a431f754_mutation-adn> rdfs:label "mutation ADN" ;
+    rdf:Description "une modification de la séquence de l'ADN causée par certain environnement" ;
+    rdf:ID "a431f754_mutation-adn" .
+
