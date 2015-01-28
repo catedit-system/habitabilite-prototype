@@ -1,3 +1,4 @@
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -5,5 +6,6 @@
 
 <http://ld.iri-research.org/ontology/categorisation/category#6a81a170_rayon-x> rdfs:label "rayon X" ;
     rdf:Description "Les rayons X sont une forme de rayonnement électromagnétique à haute fréquence constitué de photons dont la longueur d'onde est comprise approximativement entre 0,01 nanomètre et 10 nanomètres (10-11 m et 10-8 m), correspondant à des fréquences de 30 pétahertz à 30 exahertz (3×1016 Hz à 3×1019 Hz). L'énergie de ces photons va de quelques eV (électron-volt), à plusieurs dizaines de MeV1. C'est un rayonnement ionisant utilisé dans de nombreuses applications dont l'imagerie médicale (« radiographie conventionnelle ») et la cristallographie." ;
-    rdf:ID "6a81a170_rayon-x" .
+    rdf:ID "6a81a170_rayon-x" ;
+    ns1:related <http://ld.iri-research.org/ontology/categorisation/category#6d2c0009_radiation> .
 
