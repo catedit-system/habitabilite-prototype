@@ -1,3 +1,4 @@
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -5,5 +6,7 @@
 
 <http://ld.iri-research.org/ontology/categorisation/category#70d76a39_orbite> rdfs:label "orbite" ;
     rdf:Description "En mécanique céleste et en mécanique spatiale, une orbite est la courbe fermée représentant la trajectoire que dessine, dans l'espace, un objet céleste sous l'effet de la gravitation et de forces d'inertie1. Une telle orbite est dite périodique. Dans le Système solaire, la Terre, les autres planètes, les astéroïdes et les comètes sont en orbite autour du Soleil. De même, des planètes possèdent des satellites naturels en orbite autour d'elles. Des objets artificiels, comme les satellites et les sondes spatiales sont en orbite autour de la Terre ou d'autres corps du système solaire." ;
-    rdf:ID "70d76a39_orbite" .
+    rdf:ID "70d76a39_orbite" ;
+    ns1:related <http://ld.iri-research.org/ontology/categorisation/category#ab27cdd0_planete>,
+        <http://ld.iri-research.org/ontology/categorisation/category#e619cfdc_effet-de-maree> .
 
