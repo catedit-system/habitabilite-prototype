@@ -1,3 +1,4 @@
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -5,5 +6,7 @@
 
 <http://ld.iri-research.org/ontology/categorisation/category#1c341f2b_e-uv> rdfs:label "E-UV" ;
     rdf:Description "Le rayonnement ultraviolet extrême (UVE, en anglais extreme ultraviolet radiation, EUV ou XUV) est un rayonnement électromagnétique dans la partie du spectre électromagnétique couvrant les longueurs d'onde de 124 à 10 nm, et donc (par l'équation de Planck-Einstein) ayant des photons avec des énergies de 10 eV à 124 eV.Le rayonnement ultraviolet extrême est produit naturellement par la couronne solaire et artificiellement par du plasma et des sources de rayonnement synchrotron." ;
-    rdf:ID "1c341f2b_e-uv" .
+    rdf:ID "1c341f2b_e-uv" ;
+    ns1:related <http://ld.iri-research.org/ontology/categorisation/category#6d2c0009_radiation>,
+        <http://ld.iri-research.org/ontology/categorisation/category#ab768f2e_evaporation> .
 
