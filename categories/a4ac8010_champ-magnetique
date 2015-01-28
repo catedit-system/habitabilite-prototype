@@ -1,3 +1,4 @@
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -6,5 +7,7 @@
 <http://ld.iri-research.org/ontology/categorisation/category#a4ac8010_champ-magnetique> rdfs:label "champ magnétique " ;
     rdf:Description """"\r
 En physique, le champ magnétique est une grandeur ayant le caractère d'un champ vectoriel, c'est-à-dire caractérisée par la donnée d'une norme, d’une direction et d’un sens, définie en tout point de l'espace, permettant de modéliser et quantifier les effets magnétiques du courant électrique ou des matériaux magnétiques comme les aimants permanents.\"""" ;
-    rdf:ID "a4ac8010_champ-magnetique" .
+    rdf:ID "a4ac8010_champ-magnetique" ;
+    ns1:related <http://ld.iri-research.org/ontology/categorisation/category#ab27cdd0_planete>,
+        <http://ld.iri-research.org/ontology/categorisation/category#cb27c8c6_bouclier-magnetique> .
 
