@@ -1,3 +1,4 @@
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -5,5 +6,6 @@
 
 <http://ld.iri-research.org/ontology/categorisation/category#1aa53c0f_metallicite> rdfs:label "métallicité" ;
     rdf:Description "La métallicité d'une planète désigne la teneur en éléments chimiques plus lourd que l'hydrogène et l'hélium sur cette planète." ;
-    rdf:ID "1aa53c0f_metallicite" .
+    rdf:ID "1aa53c0f_metallicite" ;
+    ns1:related <http://ld.iri-research.org/ontology/categorisation/category#b909d599_activite-tellurique> .
 
