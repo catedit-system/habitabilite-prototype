@@ -1,0 +1,9 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ld.iri-research.org/ontology/categorisation/category#b5d94c96_exoplanete> rdfs:label "exoplanète" ;
+    rdf:Description "Une exoplanète4,5, ou planète extrasolaire, est une planète située en-dehors du Système solaire. Cette définition est étendue de manière plus ou moins officielle, à la suite des découvertes récentes, aux « planètes errantes », c'est-à-dire n'étant liées par la gravité à aucune étoile, et qui seraient peut-être même plus nombreuses que les planètes au sens traditionnel. Cette terminologie pourrait également inclure les planètes qui pourraient théoriquement graviter autour de trous noirs." ;
+    rdf:ID "b5d94c96_exoplanete" .
+

@@ -1,0 +1,9 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ld.iri-research.org/ontology/categorisation/category#d2ecf66a_jupiter-chaud> rdfs:label "jupiter chaud" ;
+    rdf:Description "Un Jupiter chaud, ou pégaside, est une exoplanète géante gazeuse de masse comparable ou supérieure à celle de Jupiter (1,9×1027 kg), mais orbitant très près de son étoile, typiquement à moins de 0,5 UA (75×106 km), voire jusqu'à seulement 0,015 UA (2,2×106 km). Les plus chaudes sont appelées « Jupiter très chauds »." ;
+    rdf:ID "d2ecf66a_jupiter-chaud" .
+

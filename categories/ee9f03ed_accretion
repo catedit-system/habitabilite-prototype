@@ -1,0 +1,9 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ld.iri-research.org/ontology/categorisation/category#ee9f03ed_accretion> rdfs:label "accrétion" ;
+    rdf:Description "L’accrétion désigne en astrophysique, en géologie, en médecine et en météorologie la constitution et l'accroissement d'un corps, d'une structure ou d'un objet par apport et/ou agglomération de matière, généralement en surface ou en périphérie de celui-ci." ;
+    rdf:ID "ee9f03ed_accretion" .
+
