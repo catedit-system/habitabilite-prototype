@@ -1,0 +1,9 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ld.iri-research.org/ontology/categorisation/category#99df0d6a_systeme-planetaire> rdfs:label "système planétaire" ;
+    rdf:Description "En astronomie, un système planétaire (parfois confondu avec système stellaire) est un système composé de planètes, ainsi que de divers corps célestes inertes tels des astéroïdes et comètes, gravitant autour d'une étoile. Le Système solaire est un exemple de système planétaire. Par extension, et de façon impropre, le terme « système solaire » est parfois employé pour désigner d’autres systèmes planétaires." ;
+    rdf:ID "99df0d6a_systeme-planetaire" .
+
