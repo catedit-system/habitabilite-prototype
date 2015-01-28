@@ -1,0 +1,9 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ld.iri-research.org/ontology/categorisation/category#74e21d91_etoile> rdfs:label "étoile" ;
+    rdf:Description "Une étoile est une boule de plasma dont le diamètre et la densité sont tels que la région centrale — le cœur — finit par atteindre une température (de l'ordre de 10 millions kelvins) capable d’amorcer les réactions de fusion de l'hydrogène. Une étoile rayonne dans tout le spectre électromagnétique, au contraire de la plupart des planètesNote 1 (comme la Terre) qui reçoivent principalement l'énergie de l'étoile ou des étoiles autour desquelles elles gravitent." ;
+    rdf:ID "74e21d91_etoile" .
+
