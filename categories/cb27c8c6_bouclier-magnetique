@@ -1,0 +1,9 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ld.iri-research.org/ontology/categorisation/category#cb27c8c6_bouclier-magnetique> rdfs:label "bouclier magnétique" ;
+    rdf:Description "Le bouclier magnétique, aussi appelé champ magnétique terrestre, est un immense champ magnétique qui entoure la Terre, de manière non uniforme du fait de son interaction avec le vent solaire." ;
+    rdf:ID "cb27c8c6_bouclier-magnetique" .
+
