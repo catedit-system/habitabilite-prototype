@@ -1,0 +1,9 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ld.iri-research.org/ontology/categorisation/category#ab27cdd0_planete> rdfs:label "planète" ;
+    rdf:Description "Une planète est un corps céleste orbitant autour du Soleil ou d'une autre étoile de l'Univers et possédant une masse suffisante pour que sa gravité la maintienne en équilibre hydrostatique, c'est-à-dire sous une forme presque sphérique. Certaines définitions étendent celle-ci aux objets libres de masse planétaire." ;
+    rdf:ID "ab27cdd0_planete" .
+
