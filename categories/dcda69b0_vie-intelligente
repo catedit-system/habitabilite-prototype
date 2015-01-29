@@ -5,5 +5,6 @@
 
 <http://ld.iri-research.org/ontology/categorisation/category#dcda69b0_vie-intelligente> rdfs:label "vie intelligente" ;
     rdf:Description "Forme de vie développant une intelligence et une conscience d'elle-même" ;
-    rdf:ID "dcda69b0_vie-intelligente" .
+    rdf:ID "dcda69b0_vie-intelligente" ;
+    rdfs:subClassOf <http://ld.iri-research.org/ontology/categorisation/category#8dd42238_vie> .
 
