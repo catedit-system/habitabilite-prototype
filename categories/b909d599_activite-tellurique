@@ -1,3 +1,4 @@
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -5,5 +6,7 @@
 
 <http://ld.iri-research.org/ontology/categorisation/category#b909d599_activite-tellurique> rdfs:label "activité tellurique" ;
     rdf:Description "Phénomènes de mouvement des couches superficielles à la surface d'une planète, provoqués par les effets de marée sur cette planète." ;
-    rdf:ID "b909d599_activite-tellurique" .
+    rdf:ID "b909d599_activite-tellurique" ;
+    ns1:related <http://ld.iri-research.org/ontology/categorisation/category#daf9bb70_taux-dhelium>,
+        <http://ld.iri-research.org/ontology/categorisation/category#e619cfdc_effet-de-maree> .
 
