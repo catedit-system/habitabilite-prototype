@@ -7,6 +7,7 @@
 <http://ld.iri-research.org/ontology/categorisation/category#74e21d91_etoile> rdfs:label "étoile" ;
     rdf:Description "Une étoile est une boule de plasma dont le diamètre et la densité sont tels que la région centrale — le cœur — finit par atteindre une température (de l'ordre de 10 millions kelvins) capable d’amorcer les réactions de fusion de l'hydrogène. Une étoile rayonne dans tout le spectre électromagnétique, au contraire de la plupart des planètesNote 1 (comme la Terre) qui reçoivent principalement l'énergie de l'étoile ou des étoiles autour desquelles elles gravitent." ;
     rdf:ID "74e21d91_etoile" ;
-    ns1:related <http://ld.iri-research.org/ontology/categorisation/category#eacc8b38_rotation-stellaire>,
+    ns1:related <http://ld.iri-research.org/ontology/categorisation/category#ab27cdd0_planete>,
+        <http://ld.iri-research.org/ontology/categorisation/category#eacc8b38_rotation-stellaire>,
         <http://ld.iri-research.org/ontology/categorisation/category#ee9f03ed_accretion> .
 
